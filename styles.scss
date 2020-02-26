@@ -1,0 +1,309 @@
+// Base
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 32px;
+}
+
+
+main{
+    height: 100%;
+}
+// Variables
+
+
+// Buttons
+.vandu-btn{
+    padding: .5rem .75rem;
+    background:none;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.vandu-btn-cta{
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+
+
+.vandu-btn-cta-lg{}
+
+
+// Sections Generic
+.vandu-section{
+    padding: 4rem 10rem;
+}
+
+
+.vandu-section-title{ 
+    margin-bottom: .75rem;
+}
+
+
+.vandu-section-title-center{
+    text-align: center;
+    margin-bottom: .75rem;
+
+}
+
+
+.vandu-section-content{
+
+}
+
+
+// Layout
+.vandu-flex{
+    display: flex;
+}
+
+
+.vandu-side-right{
+    flex: 1 1 50%;
+}
+
+
+.vandu-side-left{
+    flex: 1 1 50%;
+
+}
+
+
+.vandu-flex-list{}
+
+
+.vandu-flex-list-item{}
+
+
+
+// Hero Section
+.vandu-hero{
+    height: 100%;
+}
+
+
+.vandu-hero-img{
+    height: 100%;
+    background-color: gold;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding:0 4rem 0;
+}
+
+
+.hero-caption{
+    width: 40%;
+}
+
+
+.caption{
+    margin-bottom: .75rem;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+// Vandu Services Section
+.vandu-service{}
+
+
+.vandu-services-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    .vandu-services-item + .vandu-services-item{
+        // margin-left: .75rem;
+    }
+}
+
+
+.vandu-services-item{
+    flex: 1 1 30%;
+    margin-bottom: 1.75rem;
+}
+
+
+.vandu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.vandu-card-img{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    border-radius: 50%;
+    // flex: 1;
+}
+
+
+.vandu-card-caption{
+    padding: .75rem;
+    flex: 1;
+    align-self: center;
+}
+
+
+.service-name{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+// Vandu About Section
+.vandu-about{
+    padding: 0;
+
+    .vandu-side-right{
+        flex: 1 1 50%;
+        padding: 4rem 10rem;
+        padding-right: 2rem;
+    }
+
+    .vandu-side-left{
+        flex: 1 1 50%;
+        background-color: gold;
+    }
+}
+
+
+.paragraph{
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+
+
+// Vandu Stats Section
+.vandu-stats{
+
+    .vandu-section-title-center{
+        margin-bottom: 2rem;
+    }
+
+    .vandu-flex-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .vandu-flex-list-item + .vandu-flex-list-item{
+            margin-left: 10rem;
+        }
+    }
+
+    .vandu-flex-list-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.vandu-icon{
+    height: 90px;
+    width: 90px;
+    background-color:black;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+}
+
+
+.vandu-stats-name{
+    font-size: 18px;
+}
+
+
+.vandu-stats-number{
+    margin-bottom: .5rem;
+    font-size: 24px;
+}
+
+
+
+// Vandu Team
+.vandu-team{}
+
+
+.vandu-team-member{}
+
+
+.team-member-img{}
+
+
+.team-member-name{}
+
+
+.team-member-position{}
+
+
+
+// Vandu CTA
+.vandu-parallax{}
+
+
+.vandu-cta{}
+
+
+
+// Vandu Contact
+
+.vandu-map{}
+
+
+.vandu-contact{}
+
+
+.vandu-contact-form{}
+
+
+.vandu-form{
+
+    form{}
+}
+
+
+.vandu-form-input{}
+
+

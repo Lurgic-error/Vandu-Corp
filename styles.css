@@ -1,0 +1,241 @@
+:root {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+main {
+  height: 100%;
+}
+
+.vandu-btn {
+  padding: .5rem .75rem;
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.vandu-btn-cta {
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+
+.vandu-section {
+  padding: 4rem 10rem;
+}
+
+.vandu-section-title {
+  margin-bottom: .75rem;
+}
+
+.vandu-section-title-center {
+  text-align: center;
+  margin-bottom: .75rem;
+}
+
+.vandu-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.vandu-side-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.vandu-side-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.vandu-hero {
+  height: 100%;
+}
+
+.vandu-hero-img {
+  height: 100%;
+  background-color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 4rem 0;
+}
+
+.hero-caption {
+  width: 40%;
+}
+
+.caption {
+  margin-bottom: .75rem;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.vandu-services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.vandu-services-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+  margin-bottom: 1.75rem;
+}
+
+.vandu-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vandu-card-img {
+  height: 90px;
+  width: 90px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.vandu-card-caption {
+  padding: .75rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.service-name {
+  font-size: 20px;
+  text-align: center;
+}
+
+.vandu-about {
+  padding: 0;
+}
+
+.vandu-about .vandu-side-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 4rem 10rem;
+  padding-right: 2rem;
+}
+
+.vandu-about .vandu-side-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  background-color: gold;
+}
+
+.paragraph {
+  line-height: 1.4;
+  font-size: 20px;
+}
+
+.vandu-stats .vandu-section-title-center {
+  margin-bottom: 2rem;
+}
+
+.vandu-stats .vandu-flex-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vandu-stats .vandu-flex-list .vandu-flex-list-item + .vandu-flex-list-item {
+  margin-left: 10rem;
+}
+
+.vandu-stats .vandu-flex-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vandu-icon {
+  height: 90px;
+  width: 90px;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: .5rem;
+}
+
+.vandu-stats-name {
+  font-size: 18px;
+}
+
+.vandu-stats-number {
+  margin-bottom: .5rem;
+  font-size: 24px;
+}
+/*# sourceMappingURL=styles.css.map */
